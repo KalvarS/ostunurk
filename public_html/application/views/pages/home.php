@@ -1,19 +1,19 @@
-<div id="wrapper">
-<div id="wrapper_main">
-<div id="left_menu">
+<div class="wrapper">
+<div class="wrapper_main">
+<div class="left_menu">
 <div class="menu_content">
 <div class="title">
 <p>Kategooriad</p>
 </div>
 <div class="categories">
 <ul class="list">
-<li><a href="viga.html">Autod</a></li>
-<li><a href="viga.html">Aiandus</a></li>
-<li><a href="viga.html">Arvutid</a></li>
-<li><a href="viga.html">Jalgrattad</a></li>
-<li><a href="viga.html">Muusika</a></li>
-<li><a href="viga.html">Sport</a></li>
-<li><a href="viga.html">Hobid</a></li>
+<li><a href="/index.php/adverts/autod">Autod</a></li>
+<li><a href="/index.php/adverts/aiandus">Aiandus</a></li>
+<li><a href="/index.php/adverts/arvutid">Arvutid</a></li>
+<li><a href="/index.php/adverts/jalgrattad">Jalgrattad</a></li>
+<li><a href="/index.php/adverts/muusika">Muusika</a></li>
+<li><a href="/index.php/adverts/sport">Sport</a></li>
+<li><a href="/index.php/adverts/hobid">Hobid</a></li>
 <li><a href="viga.html">--------</a></li>
 <li><a href="viga.html">--------</a></li>
 <li><a href="viga.html">--------</a></li>
@@ -22,20 +22,18 @@
 </div>
 </div>
 </div>
-<div id="main_box">
+<div class="main_box">
 <div class="main_content">
-<div id="search_bar">
+<div class="search_bar">
 
 
-
-
-<div id="search_box">
+<div class="search_box">
 
 <label for="search">Otsing:</label>
 <input type="text" id="search">
 </div>
 
-<div id="search_button">
+<div class="search_button">
 <a href="viga.html">
 <div class="button">
 Otsi!
@@ -44,12 +42,13 @@ Otsi!
 </div>
 </div>
 
-<img id="main_page_picture" src="http://ostunurk.cs.ut.ee/images/Ostunurk.png" alt="Rahakott müntidega">
+<img id="main_page_picture" src="http://ostunurk.cs.ut.ee/images/Ostunurk.png" alt="" longdesc="decorative image on the first page">
+
 
 </div>
 </div>
 
-<div id="right_menu">
+<div class="right_menu">
 <div class="menu_content">
 <div class="title">
 <p>Minu konto</p>
@@ -59,14 +58,15 @@ Otsi!
 <label for="username">Kasutaja:</label>
 <input type="text" id="username"><br><br>
 <label for="password">Parool:</label>
-<input type="text" id="password"><br><br>
+<input type="password" id="password"><br><br>
 
-<a href="viga.html">
+<a href="/index.php/form">
 <div class="button">
 Logi sisse!
 </div>
 </a>
 <br>
+
 <a href="/index.php/register">
 <div class="button">
 Registreeru!

@@ -11,26 +11,36 @@ class Adverts extends CI_Controller {
         public function index()
         {
         $data['adverts'] = $this->adverts_model->get_adverts();
-        $data['title'] = 'Adverts';
 
         $this->load->view('templates/header', $data);
-        $this->load->view('adverts/index', $data);
+        $this->load->view('pages/search', $data);
         $this->load->view('templates/footer');
         }
 
-        public function view($slug = NULL)
+        public function view($category)
         {
-                 $data['adverts_item'] = $this->adverts_model->get_adverts($slug);
-
-        if (empty($data['adverts_item']))
+        
+        $data['adverts'] = $this->adverts_model->get_adverts($category);
+        if (empty($data['adverts']))
         {
-                show_404();
+               
         }
 
-        $data['title'] = $data['adverts_item']['title'];
-
+	
         $this->load->view('templates/header', $data);
-        $this->load->view('adverts/view', $data);
+        $this->load->view('pages/search', $data);
+        $this->load->view('templates/footer');
+        }
+        
+        public function view_advert($ID)
+        {
+        
+        $data['adverts'] = $this->adverts_model->get_advert($ID);
+
+
+	
+        $this->load->view('templates/header', $data);
+        $this->load->view('pages/viewadvert', $data);
         $this->load->view('templates/footer');
         }
 

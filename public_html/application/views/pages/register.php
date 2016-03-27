@@ -1,11 +1,10 @@
 
-
-<div id="wrapper">
-<div id="wrapper_main">
-<div id="register_box">
-<div id="content_register">
+<div class="wrapper">
+<div class="wrapper_main">
+<div class="register_box">
+<div class="content_register">
 <div class="title">Registreerimine</div>
-<div id="form_account_info">
+<div class="form_account_info">
 <h2>Kasutajakonto info:</h2>
 
 <table>
@@ -41,7 +40,7 @@
 
 
 </div>
-<div id="form_personal_info">
+<div class="form_personal_info">
 <h2>Isikuandmed:</h2>
 
 <table>
@@ -75,7 +74,7 @@
 </table>
 </div>
 
-<div id="user_agreement">
+<div class="user_agreement">
 <label for="user_agreement_text"><h2>Kasutajaleping:</h2></label>
 <textarea rows="4" cols="50" readonly="true" id="user_agreement_text">
 1.
@@ -98,16 +97,16 @@
 .............................
 </textarea>
 <p>Autentimine toimub ID-kaardi abil ning seda tehakse peale "Registreeru" nupule vajutamist.</p>
-<p>Vajutades nupule "Registreeru", nõustun kasutajalepingu tingimustega. </p>
+<p>Vajutades nupule "Registreeru", n천ustun kasutajalepingu tingimustega. </p>
 <br />
-<div id="register_button">
+<div class="register_button">
 <a href="">
 <div class="button">
 Registreeru
 </div>
 </a>
 </div>
-<div id="cancel_button">
+<div class="cancel_button">
 <a href="http://ostunurk.cs.ut.ee/">
 <div class="button">
 Tühista
