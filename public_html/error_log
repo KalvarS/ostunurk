@@ -166,3 +166,300 @@
 [27-Mar-2016 22:27:29 Europe/Tallinn] PHP Fatal error:  Call to undefined function base_url() in /webpages/ostunurkcsut/public_html/application/views/templates/header.php on line 6
 [27-Mar-2016 23:07:41 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 45
 [27-Mar-2016 23:31:09 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 45
+[31-Mar-2016 00:06:48 Europe/Tallinn] PHP Fatal error:  Function name must be a string in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 10
+[31-Mar-2016 00:06:54 Europe/Tallinn] PHP Fatal error:  Function name must be a string in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 10
+[31-Mar-2016 00:11:51 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'autod' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 10
+[31-Mar-2016 00:11:52 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'autod' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 10
+[31-Mar-2016 00:16:50 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 10
+[31-Mar-2016 00:19:56 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 10
+[31-Mar-2016 00:22:45 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 10
+[31-Mar-2016 00:22:46 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 10
+[31-Mar-2016 00:37:13 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 12
+[31-Mar-2016 00:39:05 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 00:48:14 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 00:48:36 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 00:52:22 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ']', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 00:52:58 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 00:53:00 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 00:53:14 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 01:02:25 Europe/Tallinn] PHP Fatal error:  Cannot use object of type mysqli as array in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 01:02:26 Europe/Tallinn] PHP Fatal error:  Cannot use object of type mysqli as array in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 01:02:54 Europe/Tallinn] PHP Fatal error:  Cannot use object of type mysqli as array in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 01:04:12 Europe/Tallinn] PHP Fatal error:  Cannot use object of type mysqli as array in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 01:04:13 Europe/Tallinn] PHP Fatal error:  Cannot use object of type mysqli as array in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 01:08:50 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '.' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 11
+[31-Mar-2016 01:09:59 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 45
+[31-Mar-2016 01:45:12 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 19
+[01-Apr-2016 14:12:18 Europe/Tallinn] PHP Fatal error:  Call to undefined function add_advert() in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 5
+[01-Apr-2016 14:12:49 Europe/Tallinn] PHP Fatal error:  Call to undefined function add_advert() in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 76
+[01-Apr-2016 14:32:41 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 57
+[01-Apr-2016 14:32:43 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 57
+[01-Apr-2016 14:32:44 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 57
+[01-Apr-2016 14:32:44 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 57
+[01-Apr-2016 14:32:45 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 57
+[01-Apr-2016 14:33:04 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 14:37:19 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:18:15 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:19:52 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:20:07 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:22:34 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:23:11 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:24:20 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:28:36 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 28
+[01-Apr-2016 15:30:26 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 28
+[01-Apr-2016 15:42:36 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:43:55 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:52:35 Europe/Tallinn] PHP Fatal error:  Cannot access empty property in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 9
+[01-Apr-2016 15:55:45 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:59:27 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 15:59:45 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 16
+[01-Apr-2016 16:02:48 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 19
+[01-Apr-2016 16:06:04 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 16:15:45 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 16:15:48 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 16:16:11 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 16:25:10 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 16:25:18 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 16:27:02 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 20
+[01-Apr-2016 17:03:10 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 20
+[01-Apr-2016 17:04:35 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 20
+[01-Apr-2016 17:21:22 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 20
+[01-Apr-2016 17:28:02 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 20
+[01-Apr-2016 18:22:44 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ')' in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 55
+[01-Apr-2016 18:23:08 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 56
+[01-Apr-2016 19:08:37 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 21
+[02-Apr-2016 12:00:21 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /webpages/ostunurkcsut/public_html/application/views/templates/failed.php on line 7
+[02-Apr-2016 12:26:45 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 16
+[02-Apr-2016 14:08:57 Europe/Tallinn] PHP Fatal error:  Call to a member function current_url() on null in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 16
+[02-Apr-2016 14:58:15 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 20
+[02-Apr-2016 14:58:19 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '}' in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 126
+[02-Apr-2016 15:06:29 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 20
+[02-Apr-2016 15:06:57 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 20
+[02-Apr-2016 15:19:55 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 20
+[02-Apr-2016 15:33:59 Europe/Tallinn] PHP Fatal error:  Call to undefined function userdata() in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 146
+[02-Apr-2016 15:51:09 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 19
+[02-Apr-2016 16:02:04 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/config/config.php on line 373
+[02-Apr-2016 16:02:08 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/config/config.php on line 373
+[02-Apr-2016 16:02:14 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/config/config.php on line 373
+[02-Apr-2016 16:09:59 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/views/templates/header.php on line 4
+[02-Apr-2016 16:10:08 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/views/templates/header.php on line 4
+[02-Apr-2016 16:10:09 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/views/templates/header.php on line 4
+[02-Apr-2016 16:10:13 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/views/templates/header.php on line 4
+[02-Apr-2016 16:10:15 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/views/templates/header.php on line 4
+[02-Apr-2016 16:11:01 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 55
+[02-Apr-2016 16:11:19 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 55
+[02-Apr-2016 16:11:33 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 55
+[02-Apr-2016 16:11:41 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 55
+[02-Apr-2016 16:12:02 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 55
+[02-Apr-2016 16:12:13 Europe/Tallinn] PHP Fatal error:  Call to a member function userdata() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 55
+[02-Apr-2016 16:12:56 Europe/Tallinn] PHP Fatal error:  Call to undefined function redirect() in /webpages/ostunurkcsut/public_html/application/controllers/Pages.php on line 32
+[02-Apr-2016 16:13:35 Europe/Tallinn] PHP Fatal error:  Call to undefined function redirect() in /webpages/ostunurkcsut/public_html/application/controllers/Pages.php on line 32
+[02-Apr-2016 16:23:55 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/config/hooks.php on line 14
+[02-Apr-2016 16:24:01 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/config/hooks.php on line 14
+[02-Apr-2016 16:24:04 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/config/hooks.php on line 14
+[02-Apr-2016 16:41:08 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 14
+[02-Apr-2016 17:11:22 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 20
+[02-Apr-2016 17:56:11 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 16
+[02-Apr-2016 17:56:14 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 16
+[02-Apr-2016 17:56:18 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 16
+[02-Apr-2016 17:56:25 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 16
+[02-Apr-2016 17:56:28 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 16
+[02-Apr-2016 17:56:38 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 16
+[02-Apr-2016 17:56:48 Europe/Tallinn] PHP Fatal error:  Call to undefined function validation_errors() in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 16
+[02-Apr-2016 18:04:38 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '}' in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 143
+[02-Apr-2016 18:37:34 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 19
+[02-Apr-2016 18:38:17 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ';' in /webpages/ostunurkcsut/public_html/application/views/templates/right_menu.php on line 19
+[03-Apr-2016 12:03:53 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 143
+[03-Apr-2016 14:18:15 Europe/Tallinn] PHP Fatal error:  Call to a member function create_new_user() on null in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 88
+[03-Apr-2016 14:19:51 Europe/Tallinn] PHP Fatal error:  Call to a member function create_new_user() on null in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 88
+[03-Apr-2016 14:58:22 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 19
+[03-Apr-2016 14:58:42 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 19
+[03-Apr-2016 15:24:20 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ',' in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 36
+[03-Apr-2016 20:32:46 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/views/pages/fb.php on line 119
+[03-Apr-2016 20:33:12 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/views/pages/fb.php on line 119
+[03-Apr-2016 20:33:13 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/views/pages/fb.php on line 119
+[03-Apr-2016 20:33:14 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/views/pages/fb.php on line 119
+[03-Apr-2016 20:33:22 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/views/pages/fb.php on line 119
+[03-Apr-2016 20:33:26 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/views/pages/fb.php on line 119
+[03-Apr-2016 22:44:43 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 19
+[03-Apr-2016 22:47:17 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ';' in /webpages/ostunurkcsut/public_html/application/controllers/Login.php on line 30
+[05-Apr-2016 22:32:18 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /webpages/ostunurkcsut/public_html/application/views/templates/header.php on line 2
+[06-Apr-2016 00:36:05 Europe/Tallinn] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::getwhere() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 22
+[06-Apr-2016 00:36:30 Europe/Tallinn] PHP Fatal error:  Call to a member function initialize() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[06-Apr-2016 00:37:13 Europe/Tallinn] PHP Fatal error:  Call to a member function segment() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 27
+[06-Apr-2016 00:37:26 Europe/Tallinn] PHP Fatal error:  Call to a member function segment() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 27
+[06-Apr-2016 00:37:50 Europe/Tallinn] PHP Fatal error:  Call to a member function segment() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 27
+[06-Apr-2016 00:37:50 Europe/Tallinn] PHP Fatal error:  Call to a member function segment() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 27
+[06-Apr-2016 00:38:00 Europe/Tallinn] PHP Fatal error:  Call to a member function segment() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 27
+[06-Apr-2016 00:38:00 Europe/Tallinn] PHP Fatal error:  Call to a member function segment() on null in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 27
+[06-Apr-2016 01:17:14 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 28
+[06-Apr-2016 01:17:15 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 28
+[06-Apr-2016 01:17:38 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 27
+[06-Apr-2016 08:33:07 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'total_rows' (T_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 19
+[06-Apr-2016 08:37:35 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'per_page' (T_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 19
+[06-Apr-2016 08:37:48 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'records' (T_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 21
+[06-Apr-2016 08:42:48 Europe/Tallinn] PHP Fatal error:  Cannot use object of type mysqli as array in /webpages/ostunurkcsut/public_html/application/views/pages/search.php on line 32
+[06-Apr-2016 08:49:08 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 19
+[06-Apr-2016 08:49:10 Europe/Tallinn] PHP Fatal error:  Call to undefined function result_array() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[06-Apr-2016 08:49:13 Europe/Tallinn] PHP Fatal error:  Call to undefined function result_array() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[06-Apr-2016 08:49:37 Europe/Tallinn] PHP Fatal error:  Call to undefined function result_array() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[06-Apr-2016 08:49:42 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 19
+[06-Apr-2016 08:49:45 Europe/Tallinn] PHP Fatal error:  Call to undefined function result_array() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[06-Apr-2016 08:50:10 Europe/Tallinn] PHP Fatal error:  Call to a member function result_array() on integer in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[06-Apr-2016 09:17:50 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 19
+[06-Apr-2016 09:21:08 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 26
+[06-Apr-2016 09:21:09 Europe/Tallinn] PHP Fatal error:  Call to undefined function load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 26
+[06-Apr-2016 09:22:37 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts::load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 26
+[06-Apr-2016 09:22:43 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts::load_view() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 26
+[06-Apr-2016 13:04:05 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ')' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 31
+[06-Apr-2016 13:10:36 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'previous_url' (T_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 40
+[06-Apr-2016 13:11:03 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getBuNumber() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[06-Apr-2016 13:47:53 Europe/Tallinn] PHP Fatal error:  Function name must be a string in /webpages/ostunurkcsut/public_html/application/models/Adverts_model.php on line 58
+[07-Apr-2016 10:29:45 Europe/Tallinn] PHP Parse error:  syntax error, unexpected end of file in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 70
+[07-Apr-2016 10:32:19 Europe/Tallinn] PHP Parse error:  syntax error, unexpected end of file in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 70
+[07-Apr-2016 10:41:11 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '}' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 26
+[07-Apr-2016 14:44:24 Europe/Tallinn] PHP Fatal error:  Cannot use object of type stdClass as array in /webpages/ostunurkcsut/public_html/application/views/pages/search.php on line 39
+[07-Apr-2016 14:56:13 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:56:23 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:56:25 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:56:37 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:56:54 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:56:56 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:59:37 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:59:38 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:59:38 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:59:40 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:59:41 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:59:41 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:59:41 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:59:47 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 14:59:51 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:00:05 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:00:10 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:00:12 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:00:37 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:00:39 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:01:02 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:01:03 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:01:22 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/estonian/message_lang.php on line 25
+[07-Apr-2016 15:03:05 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/estonian/message_lang.php on line 26
+[07-Apr-2016 15:04:34 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:07:56 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/estonian/message_lang.php on line 27
+[07-Apr-2016 15:08:11 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/estonian/message_lang.php on line 26
+[07-Apr-2016 15:12:58 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:13:09 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:13:17 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 25
+[07-Apr-2016 15:26:32 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getByOffset() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[07-Apr-2016 15:26:33 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getByOffset() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[07-Apr-2016 15:27:34 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getByOffset() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[07-Apr-2016 15:27:37 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getByOffset() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[07-Apr-2016 15:27:40 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getByOffset() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[07-Apr-2016 15:27:51 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getByOffset() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[07-Apr-2016 15:29:38 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getByOffset() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[07-Apr-2016 15:29:39 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getByOffset() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[07-Apr-2016 15:30:06 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getByOffset() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 25
+[07-Apr-2016 15:38:28 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/pages/login.php on line 12
+[07-Apr-2016 15:53:20 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Login.php on line 27
+[07-Apr-2016 16:03:06 Europe/Tallinn] PHP Fatal error:  Call to undefined function getMoreAdverts() in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 32
+[07-Apr-2016 16:23:59 Europe/Tallinn] PHP Fatal error:  Cannot use object of type stdClass as array in /webpages/ostunurkcsut/public_html/application/views/pages/search.php on line 39
+[07-Apr-2016 16:53:29 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/pages/login.php on line 13
+[07-Apr-2016 16:54:35 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'name' (T_STRING) in /webpages/ostunurkcsut/public_html/application/views/pages/login.php on line 15
+[07-Apr-2016 16:54:59 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'name' (T_STRING) in /webpages/ostunurkcsut/public_html/application/views/pages/login.php on line 15
+[07-Apr-2016 16:55:08 Europe/Tallinn] PHP Fatal error:  Function name must be a string in /webpages/ostunurkcsut/public_html/application/views/pages/login.php on line 13
+[07-Apr-2016 16:56:25 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ';' in /webpages/ostunurkcsut/public_html/application/views/pages/login.php on line 13
+[07-Apr-2016 18:35:04 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$adverts_item' (T_VARIABLE), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 25
+[07-Apr-2016 18:36:00 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '";}else{ echo 'http://ostunurk' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 25
+[07-Apr-2016 18:36:53 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 25
+[07-Apr-2016 18:37:40 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 25
+[07-Apr-2016 18:37:41 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 25
+[07-Apr-2016 19:00:06 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/pages/getData.php on line 3
+[07-Apr-2016 19:00:20 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/pages/getData.php on line 3
+[07-Apr-2016 19:49:55 Europe/Tallinn] PHP Fatal error:  Cannot use object of type stdClass as array in /webpages/ostunurkcsut/public_html/application/views/pages/search.php on line 39
+[07-Apr-2016 20:24:48 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '.0' (T_DNUMBER), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 26
+[08-Apr-2016 01:30:01 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'table' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 27
+[08-Apr-2016 01:30:41 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'table' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 27
+[08-Apr-2016 01:30:42 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'table' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 27
+[08-Apr-2016 01:31:12 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'pilt1' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:32:41 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '".pilt1."' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:33:33 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '' && $adverts_item["pilt1"] !=' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:34:02 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'http' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:34:25 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'pealkiri' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 30
+[08-Apr-2016 01:36:09 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '?' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:36:24 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:36:25 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:38:23 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:38:59 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '?' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:39:23 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '?' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:40:50 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:42:30 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:47:42 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:47:44 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:48:01 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:48:48 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 29
+[08-Apr-2016 01:56:39 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 37
+[08-Apr-2016 01:59:25 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 37
+[08-Apr-2016 02:00:01 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '.' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 37
+[08-Apr-2016 02:00:21 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '.' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 37
+[08-Apr-2016 02:00:22 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '.' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 37
+[08-Apr-2016 11:13:36 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '}' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 34
+[08-Apr-2016 17:06:38 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'funtion' (T_STRING), expecting variable (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 56
+[08-Apr-2016 17:06:39 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'funtion' (T_STRING), expecting variable (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 56
+[08-Apr-2016 17:07:00 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 61
+[08-Apr-2016 17:09:33 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 61
+[08-Apr-2016 17:09:34 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 61
+[08-Apr-2016 17:09:36 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /webpages/ostunurkcsut/public_html/application/controllers/Adverts.php on line 61
+[10-Apr-2016 01:28:56 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'LOGI' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/login.php on line 45
+[10-Apr-2016 01:29:21 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'LOGI' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/login.php on line 45
+[10-Apr-2016 02:00:46 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'LOGI' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 25
+[10-Apr-2016 02:01:09 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'LOGI' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 25
+[10-Apr-2016 02:01:46 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'ENL_CLICK' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 25
+[10-Apr-2016 14:06:00 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Form.php on line 19
+[10-Apr-2016 14:10:28 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'SELLER' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 42
+[10-Apr-2016 14:39:37 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 81
+[10-Apr-2016 14:41:42 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER) in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 84
+[10-Apr-2016 14:41:49 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''1'' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 84
+[10-Apr-2016 15:06:06 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 148
+[10-Apr-2016 15:25:11 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 32
+[10-Apr-2016 15:54:33 Europe/Tallinn] PHP Fatal error:  Call to undefined method Adverts_model::getNextSegment() in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 34
+[10-Apr-2016 16:05:17 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:05:31 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:06:38 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:07:54 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:09:31 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:09:41 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:10:46 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:12:51 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:12:52 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:13:31 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:13:57 Europe/Tallinn] PHP Fatal error:  Unsupported operand types in /webpages/ostunurkcsut/public_html/system/libraries/Pagination.php on line 409
+[10-Apr-2016 16:46:07 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/models/Register_model.php on line 11
+[10-Apr-2016 17:01:38 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/models/Adverts_model.php on line 29
+[10-Apr-2016 17:01:40 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /webpages/ostunurkcsut/public_html/application/models/Adverts_model.php on line 29
+[10-Apr-2016 18:58:08 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /webpages/ostunurkcsut/public_html/application/views/templates/left_menu.php on line 17
+[10-Apr-2016 19:03:27 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /webpages/ostunurkcsut/public_html/application/views/templates/left_menu.php on line 23
+[10-Apr-2016 19:03:30 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /webpages/ostunurkcsut/public_html/application/views/templates/left_menu.php on line 23
+[10-Apr-2016 19:03:44 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /webpages/ostunurkcsut/public_html/application/views/templates/left_menu.php on line 20
+[10-Apr-2016 19:04:13 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ':' in /webpages/ostunurkcsut/public_html/application/views/templates/left_menu.php on line 14
+[10-Apr-2016 20:50:05 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'LOGI' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 42
+[10-Apr-2016 20:50:19 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 42
+[10-Apr-2016 20:50:57 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '?' in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 42
+[10-Apr-2016 20:52:08 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 42
+[10-Apr-2016 20:53:20 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 42
+[10-Apr-2016 20:53:30 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 42
+[10-Apr-2016 21:23:21 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'AD_TITLE' (T_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 82
+[10-Apr-2016 21:23:29 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'AD_TITLE' (T_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 82
+[10-Apr-2016 21:23:37 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '' - ID:'' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 82
+[10-Apr-2016 21:23:54 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ':' in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 82
+[10-Apr-2016 21:24:03 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.$ID);' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 83
+[10-Apr-2016 21:24:20 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.$ID);' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 83
+[10-Apr-2016 21:24:22 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.$ID);' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 83
+[10-Apr-2016 21:25:50 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.$ID);' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 83
+[10-Apr-2016 21:27:25 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.$category);' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 70
+[10-Apr-2016 21:27:35 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.$category);' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 70
+[10-Apr-2016 21:27:58 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '<' in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 69
+[10-Apr-2016 21:28:09 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.$category);' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 70
+[10-Apr-2016 23:02:47 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.$username.'' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/models/User.php on line 6
+[10-Apr-2016 23:03:07 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''$username'' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/models/User.php on line 6
+[10-Apr-2016 23:04:08 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.$username.'' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/models/User.php on line 6
+[10-Apr-2016 23:26:05 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'http' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 25
+[10-Apr-2016 23:38:13 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.</button>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 146

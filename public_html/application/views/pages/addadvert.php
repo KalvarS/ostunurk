@@ -1,41 +1,10 @@
-<div class="wrapper">
-<div class="wrapper_main">
-<div class="left_menu">
-<div class="menu_content">
-<div class="title">
-<p>Kategooriad</p>
-</div>	
-<div class="categories">
-<ul class="list">
-<li><a href="/index.php/adverts/autod">Autod</a></li>
-<li><a href="/index.php/adverts/aiandus">Aiandus</a></li>
-<li><a href="/index.php/adverts/arvutid">Arvutid</a></li>
-<li><a href="/index.php/adverts/jalgrattad">Jalgrattad</a></li>
-<li><a href="/index.php/adverts/muusika">Muusika</a></li>
-<li><a href="/index.php/adverts/sport">Sport</a></li>
-<li><a href="/index.php/adverts/hobid">Hobid</a></li>
-<li><a href="viga.html">--------</a></li>
-<li><a href="viga.html">--------</a></li>
-<li><a href="viga.html">--------</a></li>
-<li><a href="viga.html">--------</a></li>
-</ul>
-</div>
-</div>
-</div>
-
-
 <div class="content">
 <div class="main_box">
 <div class="main_content">
 
 <div class="title">
-<p>Lisa kuulutus</p>
+<p><?php echo $this->lang->line("ADD_AD"); ?></p>
 </div>
-
-
-
-
-
 
 <!--Kuulutuse lisamise vorm -->
 <?php
@@ -44,7 +13,7 @@
 	}else{
 	echo validation_errors();
 	echo form_open();
-	echo form_fieldset('Pealkiri');	
+	echo form_fieldset($this->lang->line('TITLE'));	
 	$adverttitle = array(
 	'name'     => 'adverttitle',
 	'id'       => 'adverttitle',
@@ -55,20 +24,20 @@
 	
 	echo form_input($adverttitle, set_value('adverttitle'));
 	echo form_fieldset_close();
-	echo '<br>';
+	echo '<br />';
 
 
-	echo form_fieldset('Kuulutuse tüüp');
+	echo form_fieldset($this->lang->line('AD_TYPE'));
 	$kuulutuse_tyyp = array(
-	'fikseeritud'     => 'Fikseeritud hinnaga',
-	'avatud'       => 'Avatud hinnaga',
+	'fikseeritud'     => $this->lang->line('FIXED'),
+	'avatud'       => $this->lang->line('OPEN'),
 	);
 	
-	echo form_dropdown('adverttype',$kuulutuse_tyyp);
+	echo form_dropdown('adverttype',$kuulutuse_tyyp, set_value('adverttype'));
 	echo form_fieldset_close();
-	echo '<br>';
+	echo '<br />';
 	
-	echo form_fieldset('Hind');
+	echo form_fieldset($this->lang->line('PRICE'));
 	$hind = array(
 	'name'     => 'price',
 	'id'       => 'price',
@@ -77,26 +46,26 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($hind);
+	echo form_input($hind, set_value('price'));
 	echo form_fieldset_close();
-	echo '<br>';
+	echo '<br />';
 	
-	echo form_fieldset('Kategooria');
+	echo form_fieldset($this->lang->line('CATEGORY'));
 	$kategooria = array(
-	'autod'     => 'Autod',
-	'aiandus'       => 'Aiandus',
-	'arvutid'       => 'Arvutid',
-	'hobid'       => 'Hobid',
-	'sport'       => 'Sport',
-	'plaplapla'       => 'plaplapla',
+	'Autod'     => $this->lang->line('CARS'),
+	'Aiandus'       => $this->lang->line('GARDENING'),
+	'Arvutid'       => $this->lang->line('COMPUTERS'),
+	'Hobid'       => $this->lang->line('HOBBIES'),
+	'Sport'       => $this->lang->line('SPORTS'),
+	'Plaplapla'       => 'plaplapla',
 	);
 	
-	echo form_dropdown('categories',$kategooria);
+	echo form_dropdown('categories',$kategooria, set_value('categories'));
 	echo form_fieldset_close();
-	echo '<br>';
+	echo '<br />';
 	
 	
-	echo form_fieldset('Kirjeldus');	
+	echo form_fieldset($this->lang->line('DESCRIPTION'));	
 	$kirjeldus = array(
 	'name'     => 'description',
 	'id'       => 'description',
@@ -105,13 +74,14 @@
 	'rows'    => '8',
 	);
 	
-	echo form_textarea($kirjeldus);
+	echo form_textarea($kirjeldus, set_value('description'));
 	echo form_fieldset_close();
-	echo '<br>';
+	echo '<br />';
 	
-	echo '<p>Piltide lisamiseks sisesta järgnevatesse kastidesse piltide aadressid. Igasse kasti üks aadress. Kokku saab ühele kuulutusele lisada 4 pilti. Kui sa ei soovi pilte lisada, jäta kastid tühjaks.</p><br>';
+	echo $this->lang->line("ADD_PIC_INFO");
+	echo '<br />';
 	
-	echo form_fieldset('Pilt1');	
+	echo form_fieldset($this->lang->line('PIC1'));	
 	$pilt1 = array(
 	'name'     => 'pic1',
 	'id'       => 'pic1',
@@ -120,12 +90,12 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($pilt1);
+	echo form_input($pilt1, set_value('pic1'));
 	echo form_fieldset_close();
-	echo '<br>';
+	echo '<br />';
 	
 
-	echo form_fieldset('Pilt2');	
+	echo form_fieldset($this->lang->line('PIC2'));	
 	$pilt2 = array(
 	'name'     => 'pic2',
 	'id'       => 'pic2',
@@ -134,12 +104,12 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($pilt2);
+	echo form_input($pilt2, set_value('pic2'));
 	echo form_fieldset_close();
-	echo '<br>';
+	echo '<br />';
 	
 	
-	echo form_fieldset('Pilt3');	
+	echo form_fieldset($this->lang->line('PIC3'));	
 	$pilt3 = array(
 	'name'     => 'pic3',
 	'id'       => 'pic3',
@@ -148,12 +118,12 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($pilt3);
+	echo form_input($pilt3, set_value('pic3'));
 	echo form_fieldset_close();
-	echo '<br>';
+	echo '<br />';
 	
 	
-	echo form_fieldset('Pilt4');	
+	echo form_fieldset($this->lang->line('PIC4'));	
 	$pilt4 = array(
 	'name'     => 'pic4',
 	'id'       => 'pic4',
@@ -162,16 +132,20 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($pilt4);
+	echo form_input($pilt4, set_value('pic4'));
 	echo form_fieldset_close();
-	echo '<br>';
+	echo '<br />';
 	
 	$url_sent_from = current_url();
 	echo form_hidden('url', $url_sent_from);
 	
-	echo '<button type="submit"><div class="save_button"><a type="submin"href="/index.php/addadvert"><div class="button">Salvesta!</div></a></div></button>';
-	echo '<div class="cancel_button"><a href="/index.php/home"><div class="button">Tühista!</div></a></div><br><br>';
+	$user = $this->session->userdata('username');
+	echo form_hidden('username', $user);
 	
+        echo '<div class="save_button"><div class="button">';
+	echo $this->lang->line('SUBMIT');
+	echo '</div></div>';
+	echo $this->lang->line('CANCEL');
 	echo form_close();
 	}
 ?>
@@ -180,43 +154,5 @@
 
 
 </div>
-</div>
-</div>
-
-
-
-<div class="right_menu">
-<div class="menu_content">
-<div class="title">
-<p>Minu konto</p>
-</div>
-<br />
-
-<label for="username">Kasutaja:</label>
-<input type="text" id="username"><br><br>
-<label for="password">Parool:</label>
-<input type="password" id="password"><br><br>
-
-<a href="/index.php/addadvert">
-<div class="button">
-Logi sisse!
-</div>
-</a>
-<br>
-
-<a href="/index.php/register">
-<div class="button">
-Registreeru!
-</div>
-</a>
-<br />
-
-<ul class="list">
-</ul>
-</div>
-</div>
-
-
-
 </div>
 </div>

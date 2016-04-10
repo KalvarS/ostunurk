@@ -1,12 +1,13 @@
-<html>
-<head>
-<title>My Form</title>
-</head>
-<body>
+<div class="main_box">
+<div class="main_content">
 
-<h3>Your form was successfully submitted!</h3>
 
-<p><?php echo anchor('form', 'Try it again!'); ?></p>
 
-</body>
-</html>
+
+<p>Kuulutus edukalt lisatud!</p>
+
+<p><?php echo anchor('form', 'lisa veel'); ?></p>
+
+
+</div>
+</div>

@@ -9,6 +9,13 @@ button {
          cursor:pointer;
          overflow: hidden;
          outline:none;
+         color: white;
+         width: 100%;
+         height: 100%;
+}
+
+button:hover {
+         color: red;
 }
 
 a {
@@ -42,15 +49,47 @@ label {
 }
 
 
+div.login_form {
+        margin: 2% 30%;
+        background-color: #505050;
+        border-radius:20px;
+}
+
+div.login_form_content {
+        margin: 0% 35%;
+        background-color: #737373;
+        text-align:center;
+        border-radius:10px;
+        color: white;
+}
+
+div.form_validation_errors {
+        float: left;
+        width: 100%;
+}
+
+div.container {
+        min-height:100%;
+        position:relative;
+        margin: 0 0 100px;
+}
+
 div.map {
 
         margin: 10px 10px;
 }
 
+div.advert_pictures {
+        float: left;
+        
+}
+
 div.advert_pictures img{
         float:left;
-        width: 25%;
+        width: 24%;
+        margin: 0 2px;
         height: 150px;
+        cursor:pointer;
 }
 
 div.advert table {
@@ -61,6 +100,10 @@ div.advert table {
 
 div.advert td {
 	padding: 5px;
+}
+
+div.advert th {
+	width: 102px;
 }
 
 div.advert img{
@@ -146,15 +189,15 @@ div.header {
 	color: white;
 	font-size: 40px;
 	text-align: center;
-	background-color:#505050;
+	background-color:#2d3135;
 }
 
 div.footer {
 	color: white;
-	background-color: #505050;
-	height: 30px;
-        margin: 0.5% 20%;
+	background-color: #2d3135;
+	height: 60px;
         border-radius: 2px;
+        width: 100%;
 }
 
 div.footer A {
@@ -226,11 +269,17 @@ div.user_agreement {
 div.register_button {
 	float: left;
 	width: 150px;
+	color: white;
 }
 
 div.save_button {
 	float: left;
 	width: 150px;
+}
+
+div.login_button {
+	float: left;
+	width: 100%;
 }
 
 div.cancel_button {
@@ -258,6 +307,7 @@ div.button {
 	text-align: center;
 	height: 30px;
 	line-height: 30px;
+        cursor: pointer;
 }
 
 div.button:hover {
@@ -276,11 +326,11 @@ div.title {
         border-radius: 20px;
 }
 
-ul.list A {
+ul.list a {
 	color:white;
 }
 
-ul.list A:hover {
+ul.list a:hover {
         color:red;
 }
 
@@ -294,3 +344,70 @@ div.green_line {
         height:6px;
         background-color:green;
 }
+
+div.pagination a, strong{
+	border: 1px solid #003300;
+	padding: 4px 7px;
+	background: green;
+	margin: 0px 2px;
+	
+}
+
+div.pagination a:hover{
+	color:red;
+}
+
+div.pagination {
+     
+}
+
+div.pages_top {
+	height: 40px;
+}
+
+div.pages_bottom {
+	height: 40px;
+}
+
+#largeImgPanel {
+                text-align: center;
+                display: none;
+                position: fixed;
+                z-index: 100;
+                top: 0; left: 0; width: 100%; height: 100%;
+                background-color: rgba(100,100,100, 0.9);
+}
+
+#largeImg {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    max-height: 70%;
+    max-width: 80%;
+    min-height: 35%;
+    min-width: 35%;
+}
+
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px;
+        font:Arial;
+}
+
+div.load_more_button {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+
