@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 $route['item/getstuff'] = 'item/getstuff';
+$route['item/dataPush'] = 'item/dataPush';
 $route['item/(:any)'] = 'item/view/$1';
 $route['item'] = 'item';
 $route['login'] = 'login';

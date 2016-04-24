@@ -17,6 +17,7 @@ class Item extends CI_Controller {
         public function index(){
         	$data['adverts'] = $this->adverts_model->get_adverts();
 		$this->load_view($data, 'search');
+		$advers = $this->adverts_model->get_all();
         }
 
 	public function getpic($adverts_item){
@@ -36,6 +37,27 @@ class Item extends CI_Controller {
 		echo '<div id="count" data-count="'.$count.'"></div>';
         	foreach($adverts as $adverts_item){
             		echo '<div class="advert"><table class="table">
+  				<tr>
+   				<th rowspan="3"><img src="'.$this->getpic($adverts_item).'" alt="kuulutuse_pilt">			</th>
+    				<td>'.$this->lang->line('TITLE').': <a href="/index.php/item/view_advert/'.$adverts_item["ID"].'">'.$adverts_item["title"].'</a></td>
+    				<td>'.$this->lang->line('SELLER').': '.$adverts_item["seller"].'</td>
+  				</tr>
+  				<tr>
+    				<td>'.$this->lang->line('AD_TYPE').': '.$adverts_item["type"].'</td>
+    				<td></td>
+  				</tr>
+  				<tr>
+    				<td>'.$this->lang->line('PRICE').': '.$adverts_item["price"].'</td>
+    				<td><a href="viga.">'.$this->lang->line('WATCHLIST_ADD').'</a></td>
+  				</tr>
+				</table></div><br />'; //siia peab selle kuulutuse tabeli asja looma... :)
+        	}
+	}
+	
+		public function dataPush(){
+		$adverts = $this->adverts_model->get_last();
+        	foreach($adverts as $adverts_item){
+        	            echo '<div class="advert"><table class="table">
   				<tr>
    				<th rowspan="3"><img src="'.$this->getpic($adverts_item).'" alt="kuulutuse_pilt">			</th>
     				<td>'.$this->lang->line('TITLE').': <a href="/index.php/item/view_advert/'.$adverts_item["ID"].'">'.$adverts_item["title"].'</a></td>

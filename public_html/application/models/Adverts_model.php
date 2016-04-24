@@ -12,6 +12,13 @@ $query = $this->db->query($sql);
 return $query->result_array();
 }
 
+public function get_last()
+{
+	$sql = "SELECT * FROM view_item_search_info ORDER BY ID DESC LIMIT 1";
+        $query = $this->db->query($sql);
+        return $query->result_array();
+}
+
 public function get_adverts($category = FALSE)
 {
         if ($category === FALSE)

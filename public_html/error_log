@@ -463,3 +463,4 @@
 [10-Apr-2016 23:04:08 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.$username.'' (T_CONSTANT_ENCAPSED_STRING) in /webpages/ostunurkcsut/public_html/application/models/User.php on line 6
 [10-Apr-2016 23:26:05 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'http' (T_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/viewadvert.php on line 25
 [10-Apr-2016 23:38:13 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ''.</button>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/views/pages/addadvert.php on line 146
+[24-Apr-2016 21:56:16 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting ',' or ';' in /webpages/ostunurkcsut/public_html/application/controllers/Item.php on line 89

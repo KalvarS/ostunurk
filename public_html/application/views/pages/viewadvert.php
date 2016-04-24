@@ -19,7 +19,7 @@
 </div>
 
 
-
+<BR>&nbsp;<BR> 
 <div class="advert_pictures">   
 <?php foreach ($adverts as $adverts_item): ?>
 <img src="<?php if($adverts_item['pic1'] != ''){echo $adverts_item['pic1'].'" class="masterTooltip" title="Click to enlarge';}else{ echo 'http://ostunurk.cs.ut.ee/images/piltPuudub.png'; } ?>"  alt="Pilt1" onclick="displayImg(this.src, '<?php echo $adverts_item['pic1']; ?>')">
