@@ -13,7 +13,7 @@ $lang = array();
 //main page
 $lang['OTSING'] = 'Search:';
 $lang['OTSI'] = 'Search!';
-$lang['VIIM_KUULUTUS'] = 'Most recently added advertisment';
+$lang['VIIM_KUULUTUS'] = 'Most recently added advertisements';
 $lang['MAIN_TITLE'] = 'Ostunurk - Main page';
 
 //contact
@@ -40,6 +40,7 @@ $lang['CANCEL'] = '<div class="cancel_button"><a href="/index.php/home"><div cla
 $lang['REG_TITLE'] = 'Ostunurk - Registration';
 $lang['LOGIN_TITLE'] = 'Ostunurk - Log in';
 $lang['FB_LOGIN'] = 'Please log ' + 'into this app.';
+$lang['HOME_PAGE'] = 'Home page';
 
 
 
@@ -47,19 +48,25 @@ $lang['FB_LOGIN'] = 'Please log ' + 'into this app.';
 $lang['PRICE'] = 'Price';
 $lang['SELLER'] = 'Seller';
 $lang['DESCRIPTION'] = 'Description';
-$lang['SEARCH_ADS'] = 'Search advertisments';
+$lang['SEARCH_ADS'] = 'Search Advertisement';
 $lang['WATCHLIST_ADD'] = 'Add to watchlist';
-$lang['AD_TITLES'] = 'Ostunurk - Advertisments';
-$lang['AD_TITLE'] = 'Ostunurk - Advertisment';
-$lang['NO_ADS'] = 'No advertisments to show';
-$lang['SHOW_ADS'] = 'Load more advertisments';
+$lang['WATCHLIST_REMOVE'] = 'Remove from watchlist';
+$lang['MY_ADVERTS'] = 'My adverts';
+$lang['AD_TITLES'] = 'Ostunurk - Advertisement';
+$lang['AD_TITLE'] = 'Ostunurk - Advertisement';
+$lang['NO_ADS'] = 'No advertisements to show';
+$lang['SHOW_ADS'] = 'Load more advertisements';
 
 
 //add advert
-$lang['ADD_TITLE'] = 'Ostunurk - Add advertisment';
-$lang['ADD_AD'] = 'Add advertisment';
+$lang['EDIT_ADD'] = 'Ostunurk - Edit advert';
+$lang['DELETE_TITLE'] = 'Ostunurk - Delete advert';
+$lang['DELETE_ADVERT'] = 'Delete advert';
+$lang['ADD_TITLE'] = 'Ostunurk - Add advertisements';
+$lang['ADD_AD'] = 'Add advertisement';
+$lang['EDIT_AD'] = 'Edit advertisement';
 $lang['TITLE'] = 'Title';
-$lang['AD_TYPE'] = 'Advertisment type';
+$lang['AD_TYPE'] = 'Advertisements type';
 $lang['FIXED'] = 'Fixed price';
 $lang['OPEN'] = 'Open price';
 $lang['CATEGORY'] = 'Category';

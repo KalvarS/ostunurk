@@ -17,6 +17,7 @@ $lang['OTSING'] = 'Otsing:';
 $lang['OTSI'] = 'Otsi!';
 $lang['VIIM_KUULUTUS'] = 'Viimati lisatud kuulutus';
 $lang['MAIN_TITLE'] = 'Ostunurk - Avaleht';
+$lang['HOME_PAGE'] = 'Avaleht';
 
 
 //contact
@@ -57,8 +58,12 @@ $lang['NO_ADS'] = 'Kuulutused on otsas';
 $lang['SHOW_ADS'] = 'Lae rohkem kuulutusi';
 
 //add advert
+$lang['EDIT_ADD'] = 'Ostunurk - Muuda kuulutust';
+$lang['MY_ADVERTS'] = 'Minu kuulutused';
+$lang['DELETE_TITLE'] = 'Ostunurk - Kustuta kuulutus';
 $lang['ADD_TITLE'] = 'Ostunurk - Lisa kuulutus';
 $lang['ADD_AD'] = 'Lisa kuulutus';
+$lang['EDIT_AD'] = 'Muuda kuulutust';
 $lang['TITLE'] = 'Pealkiri';
 $lang['AD_TYPE'] = 'Kuulutuse tüüp';
 $lang['FIXED'] = 'Fikseeritud hinnaga';
@@ -76,6 +81,7 @@ $lang['PIC3'] = 'Pilt 3';
 $lang['PIC4'] = 'Pilt 4';
 $lang['SUBMIT'] = '<button type="submit">Salvesta!</button>';
 $lang['WATCHLIST_ADD'] = 'Jälgi kuulutust';
+$lang['WATCHLIST_REMOVE'] = 'Eemalda jälgimine';
 
 
 //left menu
