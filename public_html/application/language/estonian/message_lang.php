@@ -90,10 +90,14 @@ $lang['PIC4'] = 'Pilt 4';
 $lang['SUBMIT'] = '<button type="submit">Salvesta</button>';
 $lang['WATCHLIST_ADD'] = 'Jälgi kuulutust';
 $lang['WATCHLIST_REMOVE'] = 'Eemalda jälgimine';
+<<<<<<< HEAD
 $lang['ADVERT_DELETED'] = 'Kuulutus kustutatud';
 $lang['ADVERT_ADDED'] = 'Kuulutus lisatud';
 $lang['ADD_MORE'] = 'Lisa veel kuulutusi';
 $lang['CONFIRM_DELETE'] = 'Kas sa oled kindel, et soovid seda kuulutust kustutada?';
+=======
+
+>>>>>>> 7a1906a2105c082c66d7c36bb11b678fe4150e16
 
 //left menu
 $lang['CATEGORIES'] = 'Kategooriad';

@@ -1671,6 +1671,7 @@
 [08-May-2016 19:38:32 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ':' in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 61
 [08-May-2016 19:38:35 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ':' in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 61
 [08-May-2016 19:38:38 Europe/Tallinn] PHP Parse error:  syntax error, unexpected ':' in /webpages/ostunurkcsut/public_html/application/language/english/message_lang.php on line 61
+<<<<<<< HEAD
 [22-May-2016 20:19:14 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /webpages/ostunurkcsut/public_html/application/views/pages/search.php on line 83
 [22-May-2016 20:20:37 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /webpages/ostunurkcsut/public_html/application/views/pages/search.php on line 73
 [22-May-2016 20:21:01 Europe/Tallinn] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /webpages/ostunurkcsut/public_html/application/views/pages/search.php on line 83
@@ -1735,3 +1736,5 @@
 [22-May-2016 23:39:49 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '=' in /webpages/ostunurkcsut/public_html/application/language/estonian/message_lang.php on line 96
 [22-May-2016 23:39:52 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '=' in /webpages/ostunurkcsut/public_html/application/language/estonian/message_lang.php on line 96
 [22-May-2016 23:39:55 Europe/Tallinn] PHP Parse error:  syntax error, unexpected '=' in /webpages/ostunurkcsut/public_html/application/language/estonian/message_lang.php on line 96
+=======
+>>>>>>> 7a1906a2105c082c66d7c36bb11b678fe4150e16

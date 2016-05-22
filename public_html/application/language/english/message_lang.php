@@ -12,7 +12,11 @@ $lang = array();
 
 //main page
 $lang['OTSING'] = 'Search:';
+<<<<<<< HEAD
 $lang['OTSI'] = 'Search';
+=======
+$lang['OTSI'] = 'Search!';
+>>>>>>> 7a1906a2105c082c66d7c36bb11b678fe4150e16
 $lang['VIIM_KUULUTUS'] = 'Most recently added advertisements';
 $lang['MAIN_TITLE'] = 'Ostunurk - Main page';
 
@@ -41,7 +45,10 @@ $lang['REG_TITLE'] = 'Ostunurk - Registration';
 $lang['LOGIN_TITLE'] = 'Ostunurk - Log in';
 $lang['FB_LOGIN'] = 'Please log ' + 'into this app.';
 $lang['HOME_PAGE'] = 'Home page';
+<<<<<<< HEAD
 $lang['GREETING'] = 'Hello,';
+=======
+>>>>>>> 7a1906a2105c082c66d7c36bb11b678fe4150e16
 
 
 
@@ -57,12 +64,15 @@ $lang['AD_TITLES'] = 'Ostunurk - Advertisement';
 $lang['AD_TITLE'] = 'Ostunurk - Advertisement';
 $lang['NO_ADS'] = 'No advertisements to show';
 $lang['SHOW_ADS'] = 'Load more advertisements';
+<<<<<<< HEAD
 $lang['TITLE AZ'] = 'Title A-Z';
 $lang['TITLE ZA'] = 'Title Z-A';
 $lang['PRICE ASC'] = 'Price: Ascending';
 $lang['PRICE DESC'] = 'Price: Descending';
 $lang['SORT'] = 'Sort';
 $lang['SORT_ADS'] = 'Sort advertisments';
+=======
+>>>>>>> 7a1906a2105c082c66d7c36bb11b678fe4150e16
 
 
 //add advert
