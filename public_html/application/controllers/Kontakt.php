@@ -20,7 +20,7 @@ class Kontakt extends CI_Controller {
 
 
 
-
+/*
 	$this->load->library('googlemaps');
 
 
@@ -32,6 +32,9 @@ class Kontakt extends CI_Controller {
 	$marker['position'] = '58.3782196,26.7147994';
 	$this->googlemaps->add_marker($marker);
 	$data['map'] = $this->googlemaps->create_map();
+*/
+	
+	
 
         $data['title'] = ucfirst($this->lang->line('KONTAKT_PEALKIRI'));
         $data['categories'] = $this->adverts_model->get_categories();

@@ -12,8 +12,8 @@ $lang = array();
 
 //main page
 $lang['OTSING'] = 'Search:';
-$lang['OTSI'] = 'Search!';
-$lang['VIIM_KUULUTUS'] = 'Most recently added advertisment';
+$lang['OTSI'] = 'Search';
+$lang['VIIM_KUULUTUS'] = 'Most recently added advertisements';
 $lang['MAIN_TITLE'] = 'Ostunurk - Main page';
 
 //contact
@@ -21,8 +21,8 @@ $lang['INFO'] = 'It is possible to arrange a meeting at Juhan Liivi 2, Tartu (Lo
 $lang['KONTAKT_PEALKIRI'] = 'Ostunurk - Contact';
 
 //registration & login
-//$lang['LOGIN_BUTTON'] = '<button type="submit">Logi sisse!</button>';
-$lang['LOGIN_BUTTON'] = 'Log in!';
+//$lang['LOGIN_BUTTON'] = '<button type="submit">Logi sisse</button>';
+$lang['LOGIN_BUTTON'] = 'Log in';
 $lang['USERNAME'] = 'Username';
 $lang['REGISTRATION'] = 'Registration';
 $lang['PASSWORD'] = 'Password';
@@ -40,6 +40,8 @@ $lang['CANCEL'] = '<div class="cancel_button"><a href="/index.php/home"><div cla
 $lang['REG_TITLE'] = 'Ostunurk - Registration';
 $lang['LOGIN_TITLE'] = 'Ostunurk - Log in';
 $lang['FB_LOGIN'] = 'Please log ' + 'into this app.';
+$lang['HOME_PAGE'] = 'Home page';
+$lang['GREETING'] = 'Hello,';
 
 
 
@@ -47,19 +49,31 @@ $lang['FB_LOGIN'] = 'Please log ' + 'into this app.';
 $lang['PRICE'] = 'Price';
 $lang['SELLER'] = 'Seller';
 $lang['DESCRIPTION'] = 'Description';
-$lang['SEARCH_ADS'] = 'Search advertisments';
+$lang['SEARCH_ADS'] = 'Search Advertisement';
 $lang['WATCHLIST_ADD'] = 'Add to watchlist';
-$lang['AD_TITLES'] = 'Ostunurk - Advertisments';
-$lang['AD_TITLE'] = 'Ostunurk - Advertisment';
-$lang['NO_ADS'] = 'No advertisments to show';
-$lang['SHOW_ADS'] = 'Load more advertisments';
+$lang['WATCHLIST_REMOVE'] = 'Remove from watchlist';
+$lang['MY_ADVERTS'] = 'My adverts';
+$lang['AD_TITLES'] = 'Ostunurk - Advertisement';
+$lang['AD_TITLE'] = 'Ostunurk - Advertisement';
+$lang['NO_ADS'] = 'No advertisements to show';
+$lang['SHOW_ADS'] = 'Load more advertisements';
+$lang['TITLE AZ'] = 'Title A-Z';
+$lang['TITLE ZA'] = 'Title Z-A';
+$lang['PRICE ASC'] = 'Price: Ascending';
+$lang['PRICE DESC'] = 'Price: Descending';
+$lang['SORT'] = 'Sort';
+$lang['SORT_ADS'] = 'Sort advertisments';
 
 
 //add advert
-$lang['ADD_TITLE'] = 'Ostunurk - Add advertisment';
-$lang['ADD_AD'] = 'Add advertisment';
+$lang['EDIT_ADD'] = 'Ostunurk - Edit advert';
+$lang['DELETE_TITLE'] = 'Ostunurk - Delete advert';
+$lang['DELETE_ADVERT'] = 'Delete advert';
+$lang['ADD_TITLE'] = 'Ostunurk - Add advertisements';
+$lang['ADD_AD'] = 'Add advertisement';
+$lang['EDIT_AD'] = 'Edit advertisement';
 $lang['TITLE'] = 'Title';
-$lang['AD_TYPE'] = 'Advertisment type';
+$lang['AD_TYPE'] = 'Advertisements type';
 $lang['FIXED'] = 'Fixed price';
 $lang['OPEN'] = 'Open price';
 $lang['CATEGORY'] = 'Category';
@@ -74,19 +88,19 @@ $lang['PIC1'] = 'Picture 1';
 $lang['PIC2'] = 'Picture 2';
 $lang['PIC3'] = 'Picture 3';
 $lang['PIC4'] = 'Picture 4';
-$lang['SUBMIT'] = '<button type="submit">Submit!</button>';
-
-
-
-
+$lang['SUBMIT'] = '<button type="submit">Submit</button>';
+$lang['ADVERT_DELETED'] = 'Advert deleted';
+$lang['ADVERT_ADDED'] = 'Advert added';
+$lang['ADD_MORE'] = 'Add more adverts';
+$lang['CONFIRM_DELETE'] = 'Are you sure you want to delete this advert?';
 //left menu
 $lang['CATEGORIES'] = 'Categories';
 
 
 //right menu
 $lang['ACCOUNT'] = 'My account';
-$lang['LOGIN'] = 'Log in!';
-$lang['REGISTER'] = 'Register!';
+$lang['LOGIN'] = 'Log in';
+$lang['REGISTER'] = 'Register';
 $lang['LOGOUT'] = 'Log out';
 $lang['WATCHLIST'] = 'Watch list';
 

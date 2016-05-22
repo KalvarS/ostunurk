@@ -4,9 +4,8 @@
 
 
 
-<p>Kuulutus edukalt lisatud!</p>
-
-<p><?php echo anchor('form', 'lisa veel'); ?></p>
+<p><?php echo $this->lang->line("ADVERT_ADDED"); ?></p>
+<a href="index.php/form/addadvert"><?php echo $this->lang->line("ADD_MORE"); ?></a>
 
 
 </div>

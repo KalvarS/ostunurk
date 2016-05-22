@@ -2,16 +2,19 @@
 <div class="main_box">
 <div class="main_content">
 
-<div class="title">
-<p><?php echo $this->lang->line("ADD_AD"); ?></p>
-</div>
-
 <!--Kuulutuse lisamise vorm -->
-<?php
+
+<?php 
+	if(isset($advert)){foreach ($advert as $item) {}};//kui on ette antud see massiiv andmetega
+    	if($item['ID'] == null){echo '<div class="title"><p>'.$this->lang->line("ADD_AD").'</p></div>';}else{echo '<div class="title"><p>'.$this->lang->line("EDIT_AD").'</p></div>';}; 
+
+	
 	if(isset($adverttitle) && isset($adverttype) && isset($price) && isset($description)){
 		echo validation_errors();
 	}else{
-	echo validation_errors();
+
+	
+	echo '<div class="errors">'.validation_errors().'</div>';
 	echo form_open();
 	echo form_fieldset($this->lang->line('TITLE'));	
 	$adverttitle = array(
@@ -22,7 +25,11 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($adverttitle, set_value('adverttitle'));
+	if($item['ID'] == null){
+		echo form_input($adverttitle, set_value('adverttitle'));
+	}else{
+		echo form_input($adverttitle, $item['title']);
+	};
 	echo form_fieldset_close();
 	echo '<br />';
 
@@ -33,7 +40,13 @@
 	'avatud'       => $this->lang->line('OPEN'),
 	);
 	
-	echo form_dropdown('adverttype',$kuulutuse_tyyp, set_value('adverttype'));
+	
+	if($item['ID'] == null){
+		echo form_dropdown('adverttype',$kuulutuse_tyyp, set_value('adverttype'));
+	}else{
+		echo form_dropdown('adverttype', $kuulutuse_tyyp, $item['type']);
+	};
+	
 	echo form_fieldset_close();
 	echo '<br />';
 	
@@ -46,7 +59,11 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($hind, set_value('price'));
+	if($item['ID'] == null){
+		echo form_input($hind, set_value('price'));
+	}else{
+		echo form_input($hind, $item['price']);
+	};
 	echo form_fieldset_close();
 	echo '<br />';
 	
@@ -60,7 +77,11 @@
 	'Plaplapla'       => 'plaplapla',
 	);
 	
-	echo form_dropdown('categories',$kategooria, set_value('categories'));
+	if($item['ID'] == null){
+		echo form_dropdown('categories',$kategooria, set_value('categories'));
+	}else{
+		echo form_dropdown('categories',$kategooria, $item['category']);
+	};
 	echo form_fieldset_close();
 	echo '<br />';
 	
@@ -70,15 +91,18 @@
 	'name'     => 'description',
 	'id'       => 'description',
 	'maxlength' => '500',
-	'cols'     => '50',
-	'rows'    => '8',
+	'style'  => 'width:50%',
 	);
 	
-	echo form_textarea($kirjeldus, set_value('description'));
+	if($item['ID'] == null){
+		echo form_textarea($kirjeldus, set_value('description'));
+	}else{
+		echo form_textarea($kirjeldus, $item['description']);
+	};
 	echo form_fieldset_close();
 	echo '<br />';
 	
-	echo $this->lang->line("ADD_PIC_INFO");
+	echo '<p>'.$this->lang->line("ADD_PIC_INFO").'</p>';
 	echo '<br />';
 	
 	echo form_fieldset($this->lang->line('PIC1'));	
@@ -90,7 +114,11 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($pilt1, set_value('pic1'));
+	if($item['ID'] == null){
+		echo form_input($pilt1, set_value('pic1'));
+	}else{
+		echo form_input($pilt1, $item['pic1']);
+	};
 	echo form_fieldset_close();
 	echo '<br />';
 	
@@ -104,8 +132,11 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($pilt2, set_value('pic2'));
-	echo form_fieldset_close();
+	if($item['ID'] == null){
+		echo form_input($pilt2, set_value('pic2'));
+	}else{
+		echo form_input($pilt2, $item['pic2']);
+	};	echo form_fieldset_close();
 	echo '<br />';
 	
 	
@@ -118,7 +149,11 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($pilt3, set_value('pic3'));
+	if($item['ID'] == null){
+		echo form_input($pilt3, set_value('pic3'));
+	}else{
+		echo form_input($pilt3, $item['pic3']);
+	};	
 	echo form_fieldset_close();
 	echo '<br />';
 	
@@ -132,8 +167,11 @@
 	'style'    => 'width:50%',
 	);
 	
-	echo form_input($pilt4, set_value('pic4'));
-	echo form_fieldset_close();
+	if($item['ID'] == null){
+		echo form_input($pilt4, set_value('pic4'));
+	}else{
+		echo form_input($pilt4, $item['pic4']);
+	};	echo form_fieldset_close();
 	echo '<br />';
 	
 	$url_sent_from = current_url();
@@ -141,13 +179,16 @@
 	
 	$user = $this->session->userdata('username');
 	echo form_hidden('username', $user);
+
 	
         echo '<div class="save_button"><div class="button">';
 	echo $this->lang->line('SUBMIT');
 	echo '</div></div>';
 	echo $this->lang->line('CANCEL');
+
 	echo form_close();
 	}
+	
 ?>
 
 

@@ -50,6 +50,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
+$route['item/change_sorting'] = 'item/change_sorting';
+$route['item/getWatchlistLabel'] = 'item/getWatchlistLabel';
+$route['item/isInWatchlist'] = 'item/isInWatchlist';
+$route['item/removeWatchlist'] = 'item/removeWatchlist';
+$route['item/addWatchlist'] = 'item/addWatchlist';
 $route['item/getstuff'] = 'item/getstuff';
 $route['item/dataPush'] = 'item/dataPush';
 $route['item/(:any)'] = 'item/view/$1';

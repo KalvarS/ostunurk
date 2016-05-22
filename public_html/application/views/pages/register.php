@@ -5,7 +5,9 @@
 <div class="title"><?php echo $this->lang->line("REGISTRATION"); ?></div>
 <div class="form_validation_errors"> <?php echo validation_errors(); ?> </div>
 
-<?php echo form_open('/form/register'); ?>
+<!-- <?php echo form_open('/form/register'); ?> -->
+
+<form method="post" accept-charset="utf-8" action="/index.php/form/register">
 
 <div class="form_account_info">
 <h2><?php echo $this->lang->line("ACCOUNT_INFO"); ?>:</h2>
